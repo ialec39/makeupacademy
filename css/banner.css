@@ -1,0 +1,88 @@
+#b{
+	width:350px;
+	height:533px;
+}
+
+#container {
+    width: 1400px;
+    overflow: hidden;
+    padding: 20px;
+    margin: 50px auto;
+    background: white;
+}
+
+@media only screen and (max-device-width : 480px){
+   #container {
+     max-width: 100%;
+     overflow: hidden;
+    padding: 20px;
+    margin: 50px auto;
+    background: white;
+   }
+}
+
+/*photobanner*/
+
+.photobanner {
+    height: 533px;
+    width: 3550px;
+}
+
+/*keyframe animations*/
+.first {
+    -webkit-animation: bannermove 30s linear infinite;
+       -moz-animation: bannermove 30s linear infinite;
+        -ms-animation: bannermove 30s linear infinite;
+         -o-animation: bannermove 30s linear infinite;
+            animation: bannermove 30s linear infinite;
+}
+
+@keyframes "bannermove" {
+ 0% {
+    margin-left: 0px;
+ }
+ 100% {
+    margin-left: -2125px;
+ }
+
+}
+
+@-moz-keyframes bannermove {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+
+}
+
+@-webkit-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+
+}
+
+@-ms-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+
+}
+
+@-o-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+
+}
